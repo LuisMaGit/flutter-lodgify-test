@@ -15,7 +15,7 @@ The app follows a simplification of the [MVVM](https://en.wikipedia.org/wiki/Mod
   <img width="800" height="240" src="https://user-images.githubusercontent.com/70621340/147396116-ee8c3514-e2eb-4672-a168-2cf8be57993f.png">
 </p>
 
-__With this architecture the project achives__:
+__With this architecture the project achieves__:
 * _Separation of concerns and cleaner code:_ the view (Home) and the reusable widgets are the only elements where there is UI code (Flutter code), both the ViewModel and the Service are purely dart code (business logic of the app). Also the ViewModel only exposes to the View the methods and state that this requires to operate, and the service only expose an interface, that is accessed by the ViewModel.
 * _UI state maintenance_: the state, being decoupled from the UI (it is kept in the ViewModel) allows, that no matter how the widget tree is recomposed, the state will always remain unchanged. For example, being a responsive app, the layout of the app can change from mobile to desktop and it will not affect the user experience, the state will remain unchanged.
 * _Clear unit testing_: the logic that controls the View in the ViewModel can and it is easily tested in the `[test\viewmodel_tests\home_vm_test]` file.
@@ -28,7 +28,7 @@ _Production dependencies_
 * http: clean network call
 * provider: painless state management
 * flutter_svg: all icons were exported as svg (infinity quality and very small size)
-* get_it: painless dependecy injection
+* get_it: painless dependency injection
 
 _Dev dependencies_
 * mockito: mocking in test
