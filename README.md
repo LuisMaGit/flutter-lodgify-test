@@ -8,6 +8,12 @@
   <img width="520" height="360" src="https://user-images.githubusercontent.com/70621340/147396100-26ef89eb-6392-4c78-9fe9-32e39920bc38.png">
 </p>
 
+
+### Release builds
+[Android .apk](https://drive.google.com/file/d/1MSo1Fjv8u0HhSsc_ZdUc7N9E--kN9lA5/view?usp=sharing)
+
+[Windows .exe](https://drive.google.com/file/d/1qZMMPva5oVjqX5idQS1iy3VR1lY6dtPp/view?usp=sharing)
+
 ### Architecture
 The app follows a simplification of the [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) architecture, for simplicity reasons the project consists of only 3 parts. Views (Home), ViewModels (HomeVM) and Services (Data from Api). The Home View on top, the closest to the user, the Home ViewModel below that, taking input from the View and the Network Service which is what the ViewModel make use of to provide functionality.
 
