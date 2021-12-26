@@ -32,6 +32,6 @@ _Production dependencies_
 
 _Dev dependencies_
 * mockito: mocking in test
-* build_runner: code geneartion
+* build_runner: code generation
 * flutter_lints: better code
 
