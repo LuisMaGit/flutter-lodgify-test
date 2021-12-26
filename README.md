@@ -4,7 +4,6 @@
 <p float="left">
   <img width="200" height="360" src="https://user-images.githubusercontent.com/70621340/147396099-1a5f2e8e-15f1-4c07-bf34-0cf12145426c.png">
   <img width="400" height="240" src="https://user-images.githubusercontent.com/70621340/147396100-26ef89eb-6392-4c78-9fe9-32e39920bc38.png">
-  <img width="200" height="360" src="https://user-images.githubusercontent.com/70621340/119500953-38d33880-bd1d-11eb-900d-323d6121f40e.jpg">
 </p>
 
 
