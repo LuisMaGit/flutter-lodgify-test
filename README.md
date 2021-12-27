@@ -10,7 +10,7 @@
 
 
 ### CI/CD
-The project has a simple CI/CD workflow, using githubs actions.
+The project has a simple CI/CD workflow, using GitHub Actions.
 
 Each time a main branch push is made:
 - The project will be recompiled,
