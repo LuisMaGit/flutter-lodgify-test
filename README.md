@@ -28,7 +28,7 @@ __With this architecture the project achieves__:
 * _Scalability_. 
 
 ### External libraries:
-This project no needs any specific resource of the native platforms, so it can be done with no dependencies (I did something similar [here (app with no dependencies)](https://github.com/LuisMaGit/flutter_crypto), but the libraries used avoid some boilerplate code and in general form a better app.
+This project no needs any specific resource of the native platforms, so it can be done with no dependencies (I did something similar [here (app with no dependencies)](https://github.com/LuisMaGit/flutter_crypto), but the libraries used avoid some boilerplate code and in general make a better app.
 
 _Production dependencies_
 * http: clean network call
