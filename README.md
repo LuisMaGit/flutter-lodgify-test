@@ -33,7 +33,7 @@ This project no needs any specific resource of the native platforms, so it can b
 _Production dependencies_
 * http: clean network call
 * provider: painless state management
-* flutter_svg: all icons were exported as svg (infinity quality and very small size)
+* flutter_svg: all icons were exported as svg (infinity quality and very small size
 * get_it: painless dependency injection
 
 _Dev dependencies_
