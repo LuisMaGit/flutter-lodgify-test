@@ -9,10 +9,13 @@
 </p>
 
 
-### Release builds
-[Android .apk](https://drive.google.com/file/d/1MSo1Fjv8u0HhSsc_ZdUc7N9E--kN9lA5/view?usp=sharing)
+### CI/CD
+The project has a simple CI/CD workflow, using githubs actions.
 
-[Windows .exe](https://drive.google.com/file/d/1qZMMPva5oVjqX5idQS1iy3VR1lY6dtPp/view?usp=sharing)
+Each time a main branch push is made:
+- The project will be recompiled,
+- All tests will be run,
+- An android and windows app will be generated, and stored in the Artifacts section of the [workflow run](https://github.com/LuisMaGit/lodgify-flutter-test/actions/runs/1627087048).
 
 ### Architecture
 The app follows a simplification of the [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) architecture, for simplicity reasons the project consists of only 3 parts. Views (Home), ViewModels (HomeVM) and Services (Data from Api). The Home View on top, the closest to the user, the Home ViewModel below that, taking input from the View and the Network Service which is what the ViewModel make use of to provide functionality.
